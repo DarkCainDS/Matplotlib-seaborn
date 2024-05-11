@@ -1,0 +1,18 @@
+Seaborn
+Escrita por Michael Waskom.
+Esta construida sobre Matplotlib por lo que hereda todas las bondades de la misma.
+Integrada para estructuras de Pandas por lo que esta optimizada para funcionar con dataFrames.
+Ventajas
+Velocidad.
+Poco codigo.
+Altamente customizable a nivel de graficas y visualizaciones.
+Estructura Basica
+sns.'Tipo de Grafica'(
+		 data='Dataset',
+		 x='Data en el eje x',
+		 y='Data en el eje y',
+		 hue='Variable de agrupamiento')
+Tipos de Graficas
+relplot (relacional): scatterplot, lineplot.
+displot (distribuciones): histplot, kdeplot, ecdfplot, rugplot.
+catplot (categorica): stripplot, swamplot, boxplot, violinplot, pointplot, barplot

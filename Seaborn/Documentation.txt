@@ -1,0 +1,2 @@
+https://seaborn.pydata.org/generated/seaborn.color_palette.html#seaborn.color_palette
+https://seaborn.pydata.org/generated/seaborn.set_theme.html#seaborn.set_theme
